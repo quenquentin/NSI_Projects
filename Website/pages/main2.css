@@ -1,0 +1,39 @@
+body {
+    margin: 0 0 0 0;
+}
+.thanks {
+    height: 100%;
+    width: 100%;
+}
+.github {
+    background-color: #21272a;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.github p {
+    margin : 0 0 0 0;
+    padding-top: 75px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+.github b {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, serif;
+}
+
+.github img {
+    max-height: 250px;
+    max-width: 250px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 25px;
+    filter: invert(1);
+}
+.github a {
+    color: white;
+}
+.github a:hover {
+    font-style: italic;
+}
