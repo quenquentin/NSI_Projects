@@ -1,6 +1,15 @@
 body {
     margin: 0 0 0 0;
+    height: 100%;
+    background: linear-gradient(to top, rgb(104, 104, 104), rgb(165, 165, 165));
 }
+.infoSubject {
+    width: 225px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-bottom: 200px;
+}
+/* Last page */
 .thanks {
     height: 100%;
     width: 100%;
@@ -22,7 +31,6 @@ body {
     font-size: 50px;
     font-family: Arial, serif;
 }
-
 .github img {
     max-height: 250px;
     max-width: 250px;

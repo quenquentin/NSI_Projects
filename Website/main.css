@@ -58,6 +58,7 @@ p {
     word-wrap: break-word;
     color: white;
     overflow: hidden;
+    padding-top: 20%;
 }
 #_1 {
     background-image: url("images/subjects/Al_Khwarizmi.png");
@@ -81,8 +82,11 @@ p {
     background-image: url("images/subjects/Donald_Knuth.png");
 }
 #_8 {
-    background-image: url("images/subjects/Python.png");
+    background-image: url("images/subjects/DeepLearning.png");
 }
 #_9 {
+    background-image: url("images/subjects/Python.png");
+}
+#_10 {
     background-image: url("images/subjects/JavaScript.png");
 }
