@@ -9,8 +9,9 @@ body {
     position: absolute;
     width: 225px;
     height: 225px;
-    left:67px;
-    top:67px;
+    left:66px;
+    top:66px;
+    border: solid black 1px;
 }
 .infoSubject {
     width: 315px;
