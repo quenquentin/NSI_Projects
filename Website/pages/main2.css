@@ -29,9 +29,19 @@ body {
 
 /* Content div */
 .content {
-    font-family: Arial, serif;
+    padding-bottom: 150px;
+}
+.content h2 {
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.content p {
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
     font-size: 20px;
-    padding-bottom: 10px;
+    text-align: justify;
 }
 
 /* Navigation menu */
@@ -39,14 +49,20 @@ body {
     position: sticky;
     height: 100px;
     background-color: #21272a;
-    top: 90%;
+    top: 89.5%;
     color: white;
 }
 .menu img {
     filter:invert(1);
-    margin-bottom: 5px;
 }
-
+#arr_left {
+    padding-left: 20px;
+    margin-right: 40%;
+}
+#arr_right {
+    float: right;
+    padding-right: 20px;
+}
 /* Subject images */
 #_1 {
     background-image: url("../images/subjects/Al_Khwarizmi.png");
@@ -82,10 +98,6 @@ body {
 }
 #_9 {
     background-image: url("../images/subjects/Python.png");
-    transform: scale(1.4);
-}
-#_10 {
-    background-image: url("../images/subjects/JavaScript.png");
     transform: scale(1.4);
 }
 
