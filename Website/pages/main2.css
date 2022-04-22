@@ -15,7 +15,7 @@ body {
 }
 .infoSubject {
     width: 315px;
-    background-color: #ffffff;
+    background-color: white;
     margin-left: 20px;
     margin-top: 20px;
     border: solid black 2px;
@@ -26,7 +26,13 @@ body {
     font-family: Arial, serif;
     font-size: 25px;
 }
-
+.sommaire {
+    width: 10%;
+    background-color: white;
+    border: solid black 2px;
+    margin: 0 0 0 0;
+    margin-left: 50%;
+}
 /* Content div */
 .content {
     padding-bottom: 150px;
@@ -34,22 +40,23 @@ body {
 .content h2 {
     padding-left: 20px;
     font-family: Arial, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     text-decoration: underline;
 }
 .content p {
     padding-left: 20px;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
 }
 
 /* Navigation menu */
 .menu {
-    position: sticky;
+    position: fixed;
     height: 100px;
+    width: 100%;
     background-color: #21272a;
-    top: 89.5%;
+    bottom: 0;
     color: white;
 }
 .menu img {
@@ -63,54 +70,86 @@ body {
     float: right;
     padding-right: 20px;
 }
+
+
 /* Subject images */
-#_1 {
+#p1 {
     background-image: url("../images/subjects/Al_Khwarizmi.png");
     transform: scale(1.4);
 }
-#_2 {
+#p2 {
     background-image: url("../images/subjects/Von_Neumann.png");
     transform: scale(1.4);
 }
-#_3 {
+#p3 {
     background-image: url("../images/subjects/Archi_Harvard_Neumann.png");
     transform: scale(1.4);
 }
-#_4 {
+#p4 {
     background-image: url("../images/subjects/Alan_Turing.png");
     transform: scale(1.4);
 }
-#_5 {
+#p5 {
     background-image: url("../images/subjects/Eniac.png");
     transform: scale(1.4);
 }
-#_6 {
+#p6 {
     background-image: url("../images/subjects/George_Boole.png");
     transform: scale(1.4);
 }
-#_7 {
+#p7 {
     background-image: url("../images/subjects/Donald_Knuth.png");
     transform: scale(1.4);
 }
-#_8 {
+#p8 {
     background-image: url("../images/subjects/DeepLearning.png");
     transform: scale(1.4);
 }
-#_9 {
+#p9 {
     background-image: url("../images/subjects/Python.png");
     transform: scale(1.4);
 }
+#p10 {
+    background-image: url("../images/subjects/JavaScript.png");
+    transform: scale(1.4);
+}
+#p11 {
+    background-image: url("../images/subjects/Github.png");
+    transform: scale(1.4);
+}
+
 
 /* Last page */
-.thanks {
+.headbox {
+    width: 100%;
+    height: 10%;
+    padding-bottom: 0.5em;
+    background-color: #21272a;
+    font-size: 5em;
+    font-family: Arial, serif;
+    color: white;
+    text-align: center;
+}
+.headbox p {
+    margin: 0 0 0 0;
+}
+.games {
     height: 100%;
     width: 100%;
+    background-color: #4c4c4c;
+    color: white;
+    font-size: 35px;
+}
+.games p {
+    margin: 0 0 0 0;
 }
 .github {
     background-color: #21272a;
     color: white;
     width: 100%;
-    height: 300px;
+    height: 280px;
+    position: fixed;
+    bottom: 0;
 }
 .github p {
     margin : 0 0 0 0;
@@ -136,4 +175,62 @@ body {
 }
 .github a:hover {
     font-style: italic;
+}
+
+
+/* Games */
+.gameMenu {
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:rgba(0,0,0,0.9);
+}
+.gameMenu .esc {
+    float: right;
+}
+.game1 {
+    margin: auto;
+    width: 50%;
+}
+.game1 p {
+    position: fixed;
+    float: right;
+    color: #3f72e0;
+    text-shadow: 3px 0 0 black, -1px 0 0 black, 0 3px 0 black, 0 -1px 0 black, 2px 2px black, 0  0 black, 2px 0 0 black, 0 2px 0 black;
+    font-size: 4em;
+    top: 5%;
+    left: 55%;
+}
+.game1 img {
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+.game1 .btn {
+    display: inline-block;
+    background-color: #0c3576;
+    color: white;
+    font-size: 2em;
+    font-family: Arial,Serif;
+    width: 300px;
+    height: 50px;
+    margin-right: 20px;
+}
+.game1 .help {
+    position: fixed;
+    top:-15%;
+    bottom: 0;
+    left: 21%;
+    right: 0;
+}
+.retry {
+    display: none;
+    width: 960px;
+    height: 50px;
+    background-color: #0c3576;
+    color: white;
+    font-size: 2em;
+    font-family: Arial,Serif;
 }

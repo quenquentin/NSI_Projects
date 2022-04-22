@@ -60,30 +60,37 @@ p {
     overflow: hidden;
     padding-top: 20%;
 }
-#_1 {
+
+#p1 {
     background-image: url("images/subjects/Al_Khwarizmi.png");
 }
-#_2 {
+#p2 {
     background-image: url("images/subjects/Von_Neumann.png");
 }
-#_3 {
+#p3 {
     background-image: url("images/subjects/Archi_Harvard_Neumann.png");
 }
-#_4 {
+#p4 {
     background-image: url("images/subjects/Alan_Turing.png");
 }
-#_5 {
+#p5 {
     background-image: url("images/subjects/Eniac.png");
 }
-#_6 {
+#p6 {
     background-image: url("images/subjects/George_Boole.png");
 }
-#_7 {
+#p7 {
     background-image: url("images/subjects/Donald_Knuth.png");
 }
-#_8 {
+#p8 {
     background-image: url("images/subjects/DeepLearning.png");
 }
-#_9 {
+#p9 {
     background-image: url("images/subjects/Python.png");
+}
+#p10 {
+    background-image: url("images/subjects/JavaScript.png");
+}
+#p11 {
+    background-image: url("images/subjects/GitHub.png");
 }
