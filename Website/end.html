@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="pages/main2.css">
+    <script src="code.js"></script>
+    <title>Fin</title>
+</head>
+<body>
+<div class="headbox">
+    <p>Merci de votre lecture !</p>
+</div>
+<div class="games">
+    <p>Vous pouvez tester 3 différentes choses faites en JS ici en guise de récompense</p>
+    <button onClick="menu()">GAME</button>
+</div>
+<div class="github">
+    <img src="images/Github.png" alt="Logo GitHub"/>
+    <p><b>GitHub</b><br>
+        Vous pouvez retrouver mon compte GitHub <a href="https://github.com/quenquentin">ici</a>.<br>
+        Mais également mes projets de programmation seul ou avec d'autres collaborateurs.</p>
+</div>
+<div class="gameMenu">
+    <img class="esc" src="images/quit.png" onclick="quit()">
+    <div class="game1">
+        <a href="https://fr.wikipedia.org/wiki/Jeux_de_Nim#Exemples"><img src="images/games/nim/help.png" class="help"></a>
+        <img src="images/games/nim/20.png" class="plateau">
+        <p>20</p>
+        <button class="btn" onclick="nimGame('1')">1 allumette</button>
+        <button class="btn" onclick="nimGame('2')">2 allumettes</button>
+        <button class="btn" onclick="nimGame('3')">3 allumettes</button>
+        <button class="retry" onclick="nimRetry()">Retry</button>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

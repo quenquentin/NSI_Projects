@@ -1,0 +1,96 @@
+body {
+    margin: 0 0 0 0;
+}
+p {
+    font-size: 2em;
+    margin: 0 0 0 0;
+}
+.headbox {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0.5em;
+    background-color: #000000;
+    font-size: 5em;
+    font-family: Arial, serif;
+    color: white;
+    text-align: center;
+}
+.projet {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 3em;
+}
+.projet p {
+    margin: 0 0 0 0;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+.content {
+    display: grid;
+    grid-auto-rows: 225px;
+    grid-template-columns: repeat(auto-fill,225px);
+    grid-gap: 60px 40px;
+}
+.content a {
+    max-width: 225px;
+    max-height: 225px;
+    text-decoration: none;
+}
+.hoverText {
+    text-align: center;
+    font-size: 1em;
+    background-color: rgba(54, 54, 54, 0.78);
+    display: none;
+    height: 225px;
+}
+.image:hover .hoverText {
+    display: block;
+}
+.image {
+    border: black solid 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+    min-width: 225px;
+    min-height: 225px;
+}
+.image p {
+    word-wrap: break-word;
+    color: white;
+    overflow: hidden;
+    padding-top: 20%;
+}
+
+#p1 {
+    background-image: url("images/subjects/Al_Khwarizmi.png");
+}
+#p2 {
+    background-image: url("images/subjects/Von_Neumann.png");
+}
+#p3 {
+    background-image: url("images/subjects/Archi_Harvard_Neumann.png");
+}
+#p4 {
+    background-image: url("images/subjects/Alan_Turing.png");
+}
+#p5 {
+    background-image: url("images/subjects/Eniac.png");
+}
+#p6 {
+    background-image: url("images/subjects/George_Boole.png");
+}
+#p7 {
+    background-image: url("images/subjects/Donald_Knuth.png");
+}
+#p8 {
+    background-image: url("images/subjects/DeepLearning.png");
+}
+#p9 {
+    background-image: url("images/subjects/Python.png");
+}
+#p10 {
+    background-image: url("images/subjects/JavaScript.png");
+}
+#p11 {
+    background-image: url("images/subjects/GitHub.png");
+}
