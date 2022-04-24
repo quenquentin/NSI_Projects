@@ -1,52 +1,71 @@
+html {
+    width: 100%;
+    height: 100%;
+}
 body {
     margin: 0 0 0 0;
     height: 100%;
     background: linear-gradient(to top, rgb(255, 255, 255), rgb(208, 208, 208));
 }
-
 /* Subject div */
-.imageSubject {
+.info {
+    text-align: center;
+}
+.info p {
     position: absolute;
+    top: 0;
+    right: 50%;
+    font-size: 8em;
+    margin-bottom: 100px;
+    font-family: Impact, serif;
+}
+.imageSubject {
     width: 225px;
     height: 225px;
-    left:66px;
-    top:66px;
-    border: solid black 1px;
-}
-.infoSubject {
-    width: 315px;
-    background-color: white;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 66px;
+    margin-top: 66px;
+    margin-bottom: 80px;
     border: solid black 2px;
 }
-.infoSubject p {
-    padding-top: 100%;
-    text-align: center;
-    font-family: Arial, serif;
-    font-size: 25px;
+.subject {
+    font-size: 3em;
 }
+
 .sommaire {
-    width: 10%;
-    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
     border: solid black 2px;
-    margin: 0 0 0 0;
-    margin-left: 50%;
+    font-size: 3em;
+    text-align: center;
+    background-color: #21272a;
+    color: white;
+}
+.sommaire a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.sommaire a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.sommaire a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 /* Content div */
-.content {
-    padding-bottom: 150px;
-}
 .content h2 {
     padding-left: 20px;
     font-family: Arial, sans-serif;
-    font-size: 35px;
+    font-size: 3em;
     text-decoration: underline;
 }
 .content p {
     padding-left: 20px;
+    padding-right: 20px;
     font-family: Arial, sans-serif;
-    font-size: 25px;
+    font-size: 3em;
     text-align: justify;
 }
 
@@ -70,7 +89,9 @@ body {
     float: right;
     padding-right: 20px;
 }
+#home {
 
+}
 
 /* Subject images */
 #p1 {
@@ -82,38 +103,26 @@ body {
     transform: scale(1.4);
 }
 #p3 {
-    background-image: url("../images/subjects/Archi_Harvard_Neumann.png");
-    transform: scale(1.4);
-}
-#p4 {
     background-image: url("../images/subjects/Alan_Turing.png");
     transform: scale(1.4);
 }
-#p5 {
-    background-image: url("../images/subjects/Eniac.png");
-    transform: scale(1.4);
-}
-#p6 {
-    background-image: url("../images/subjects/George_Boole.png");
-    transform: scale(1.4);
-}
-#p7 {
+#p4 {
     background-image: url("../images/subjects/Donald_Knuth.png");
     transform: scale(1.4);
 }
-#p8 {
+#p5 {
     background-image: url("../images/subjects/DeepLearning.png");
     transform: scale(1.4);
 }
-#p9 {
+#p6 {
     background-image: url("../images/subjects/Python.png");
     transform: scale(1.4);
 }
-#p10 {
+#p7 {
     background-image: url("../images/subjects/JavaScript.png");
     transform: scale(1.4);
 }
-#p11 {
+#p8 {
     background-image: url("../images/subjects/Github.png");
     transform: scale(1.4);
 }
@@ -125,23 +134,40 @@ body {
     height: 10%;
     padding-bottom: 0.5em;
     background-color: #21272a;
-    font-size: 5em;
     font-family: Arial, serif;
     color: white;
     text-align: center;
 }
 .headbox p {
     margin: 0 0 0 0;
+    font-size: 4em;
+}
+.headbox i {
+    font-size: 2em;
 }
 .games {
-    height: 100%;
+    height: 670px;
     width: 100%;
     background-color: #4c4c4c;
     color: white;
     font-size: 35px;
 }
-.games p {
-    margin: 0 0 0 0;
+.games button {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.hoverText {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+.games button:hover .hoverText {
+    display: block;
 }
 .github {
     background-color: #21272a;
@@ -191,7 +217,10 @@ body {
 .gameMenu .esc {
     float: right;
 }
+
+/* Nim */
 .game1 {
+    display: none;
     margin: auto;
     width: 50%;
 }
@@ -233,4 +262,21 @@ body {
     color: white;
     font-size: 2em;
     font-family: Arial,Serif;
+}
+.botplaying {
+    display: none;
+    width: 960px;
+    height: 50px;
+    background-color: #0c3576;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial,Serif;
+}
+
+/* Painted */
+.game2 {
+    display: none;
+    margin: auto;
+    width: 50%;
 }

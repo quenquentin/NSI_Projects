@@ -8,11 +8,17 @@
 </head>
 <body>
 <div class="headbox">
+    <a href="index.html"><img src="images/Home.png" style="float: left; filter: invert(1)"></a>
     <p>Merci de votre lecture !</p>
+    <i>Vous pouvez tester 2 différentes choses faites en JS ici en guise de récompense</i>
 </div>
 <div class="games">
-    <p>Vous pouvez tester 3 différentes choses faites en JS ici en guise de récompense</p>
-    <button onClick="menu()">GAME</button>
+    <button style="background-image: url(images/games/nim/nim.png); left: 40%;" onClick="menu(1)">
+        <p class="hoverText">Nim game</p>
+    </button>
+    <button style="background-image: url(images/games/painted.png); left: 60%;" onClick="menu(2)">
+        <p class="hoverText">Painted</p>
+    </button>
 </div>
 <div class="github">
     <img src="images/Github.png" alt="Logo GitHub"/>
@@ -26,10 +32,15 @@
         <a href="https://fr.wikipedia.org/wiki/Jeux_de_Nim#Exemples"><img src="images/games/nim/help.png" class="help"></a>
         <img src="images/games/nim/20.png" class="plateau">
         <p>20</p>
+        <div class="botplaying">L'autre joueur réfléchit...</div>
         <button class="btn" onclick="nimGame('1')">1 allumette</button>
         <button class="btn" onclick="nimGame('2')">2 allumettes</button>
         <button class="btn" onclick="nimGame('3')">3 allumettes</button>
         <button class="retry" onclick="nimRetry()">Retry</button>
+
+    </div>
+    <div class="game2">
+        <canvas id="canvas" width="801px" height="851px" style="width: 801px; height: 851px;  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%)"/>
     </div>
 </div>
 

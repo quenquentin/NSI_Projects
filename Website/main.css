@@ -68,29 +68,20 @@ p {
     background-image: url("images/subjects/Von_Neumann.png");
 }
 #p3 {
-    background-image: url("images/subjects/Archi_Harvard_Neumann.png");
-}
-#p4 {
     background-image: url("images/subjects/Alan_Turing.png");
 }
-#p5 {
-    background-image: url("images/subjects/Eniac.png");
-}
-#p6 {
-    background-image: url("images/subjects/George_Boole.png");
-}
-#p7 {
+#p4 {
     background-image: url("images/subjects/Donald_Knuth.png");
 }
-#p8 {
+#p5 {
     background-image: url("images/subjects/DeepLearning.png");
 }
-#p9 {
+#p6 {
     background-image: url("images/subjects/Python.png");
 }
-#p10 {
+#p7 {
     background-image: url("images/subjects/JavaScript.png");
 }
-#p11 {
-    background-image: url("images/subjects/GitHub.png");
+#p8 {
+    background-image: url("images/subjects/Github.png");
 }
